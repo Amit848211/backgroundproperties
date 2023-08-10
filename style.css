@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  max-width: 100vw;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)
+  );
+  background-size: initial;
+}
+.nav-sub {
+  margin-inline: 28%;
+  display: inline-block;
+  color: white;
+}
+.home {
+  padding: 3% 7%;
+  background-color: white;
+  color: black;
+  size: 18px;
+}
+.header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  padding: 0;
+}
+.main1 {
+  background-image: url("factory.jpg");
+  /* background: linear-gradient(rgba(4, 3, 3, 0.8), rgba(0, 0, 0, 0)); */
+
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  box-shadow: 0 .1px 5px black;
+}
+.main2 {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.main2 > img {
+  margin: 2%;
+  width: 29%;
+  height: 90%;
+}
+.main3 {
+  display: flex;
+  background: linear-gradient(
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 1)
+    );
+    height: 500px;
+    padding: 2%;
+    background-size: cover;
+}
+.img4 {
+  width: 45%;
+  margin: 1%;
+  display: inline;
+  margin-left: 20px;
+  height: 100%;
+}
+.content {
+  width: 45%;
+  display: inline-block;
+  color: white;
+  margin-top: 17%;
+  margin-bottom: 0;
+}
